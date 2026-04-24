@@ -1,0 +1,38 @@
+# 虚拟环境
+chlish_venv/
+venv/
+env/
+*.py[cod]
+__pycache__/
+*.so
+
+# 模型权重与加密分片（绝对不能上传到Git）
+model_raw/
+model_encrypted/
+model/
+*.bin
+*.gguf
+*.safetensors
+
+# 生产环境密码本（绝对不能上传到Git）
+prod_cipher_books/
+*.root.cb
+*.shard.cb
+*.env.cb
+*.link.cb
+*.honey.cb
+
+# 备份与日志
+backup/
+test_report/
+growth_data/
+growth_dora/
+stable_version/
+*.log
+*.tmp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
